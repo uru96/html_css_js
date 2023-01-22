@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+.wrapper {
+    background-color: aqua;
+    min-height: 30%;
+}
+
+.navbar {
+    position: sticky;
+    display: flex;
+    min-height: 50px;
+    background-color: sienna;
+    justify-content: space-between;
+}
+
+.wrapper .navbar-logo{
+    min-width: 40px;
+    background-color: blue;
+}
+
+.wrapper .navbar-menu{
+    display: flex;
+    margin-right: 20px;
+    background-color: lime;
+    width: fit-content;
+
+    justify-content: flex-end;
+
+    align-items: center;
+    padding: 15px;
+    /*margin-left: 10px;*/
+}
+
+.navbar-menu-item{
+    padding: 10px;
+    /*display: flex;*/
+    /*text-align: */
+    height: fit-content;
+    background-color: white;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    background-color: cornflowerblue;
+}
